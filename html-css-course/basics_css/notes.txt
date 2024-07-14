@@ -1,0 +1,77 @@
+These are concise notes on CSS basics, buttons, properties, values, selectors, margins, padding, borders, and pixels:
+
+### CSS Basics
+- **CSS (Cascading Style Sheets)**: Used to style and layout web pages.
+- **Syntax**: CSS rules consist of a selector and a declaration block.
+  ```css
+  selector {
+    property: value;
+  }
+  ```
+
+### CSS Selectors
+- **Element Selector**: Selects all elements of a given type. Example: `p { color: red; }`
+- **Class Selector**: Selects all elements with a given class. Example: `.className { color: red; }`
+- **ID Selector**: Selects a single element with a given ID. Example: `#idName { color: red; }`
+- **Attribute Selector**: Selects elements based on an attribute. Example: `[type="text"] { color: red; }`
+- **Pseudo-class Selector**: Selects elements based on their state. Example: `a:hover { color: red; }`
+- **Pseudo-element Selector**: Selects and styles parts of an element. Example: `p::first-line { color: red; }`
+
+### CSS Properties and Values
+- **Property**: The aspect of the element you want to style (e.g., color, font-size).
+- **Value**: The setting for the property (e.g., red, 16px).
+
+### CSS for Buttons
+- **Basic Button Styling**:
+  ```css
+  button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  ```
+- **Hover Effect**:
+  ```css
+  button:hover {
+    background-color: darkblue;
+  }
+  ```
+
+### Margin and Padding
+- **Margin**: Space outside the element's border.
+  ```css
+  div {
+    margin: 10px;
+  }
+  ```
+- **Padding**: Space inside the element's border, around the content.
+  ```css
+  div {
+    padding: 10px;
+  }
+  ```
+
+### Border
+- **Border**: Surrounds the element's padding and content.
+  ```css
+  div {
+    border: 1px solid black;
+  }
+  ```
+- **Border Properties**:
+  - `border-width`: Thickness of the border.
+  - `border-style`: Style of the border (e.g., solid, dashed).
+  - `border-color`: Color of the border.
+
+### Pixels
+- **Pixels (px)**: A common unit of measurement in CSS. One pixel is a single point in the screen's display.
+  ```css
+  p {
+    font-size: 16px;
+  }
+  ```
+
+These notes cover the basics of CSS and provide useful references for styling elements, particularly buttons, and understanding common CSS properties and measurements.

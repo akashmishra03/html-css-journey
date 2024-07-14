@@ -1,0 +1,41 @@
+These are some concise notes on HTML elements, attributes, tags, and basics:
+
+### HTML Basics
+- **HTML (HyperText Markup Language)**: The standard language for creating web pages.
+- **Structure**: HTML documents have a hierarchical structure defined by tags.
+- **Doctype**: Defines the document type and version of HTML. Example: `<!DOCTYPE html>`.
+- **Root Element**: `<html>` tag encompasses all HTML content.
+- **Head**: Contains meta-information like title, links to stylesheets, and scripts. Example: `<head>`.
+- **Body**: Contains the content of the document, such as text, images, links, etc. Example: `<body>`.
+
+### HTML Elements
+- **Definition**: An HTML element is everything from the start tag to the end tag.
+- **Syntax**: `<start-tag> content </end-tag>`.
+- **Empty Elements**: Elements that do not have closing tags. Example: `<br>`, `<img>`.
+
+### HTML Tags
+- **Opening Tag**: The start of an element. Example: `<p>`.
+- **Closing Tag**: The end of an element. Example: `</p>`.
+- **Self-Closing Tag**: A single tag that closes itself. Example: `<img src="image.jpg" />`.
+- **Common Tags**:
+  - Headings: `<h1>`, `<h2>`, ... `<h6>`
+  - Paragraph: `<p>`
+  - Links: `<a href="URL">`
+  - Images: `<img src="URL" alt="description">`
+  - Lists: `<ul>`, `<ol>`, `<li>`
+  - Divisions: `<div>`
+  - Spans: `<span>`
+
+### HTML Attributes
+- **Definition**: Provide additional information about HTML elements.
+- **Syntax**: `<tagname attribute="value">`.
+- **Common Attributes**:
+  - `id`: Unique identifier for an element.
+  - `class`: Specifies one or more class names for an element.
+  - `src`: URL for an image source.
+  - `href`: URL for a link.
+  - `alt`: Alternative text for an image.
+  - `title`: Tooltip text when the mouse hovers over the element.
+  - `style`: Inline CSS styles.
+
+These notes cover the foundational concepts of HTML, useful for quick reference.
