@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Added a fallback font */
+            margin: 20px; /* Added margin for better spacing */
+        }
+
+        /* Styling for pagination section */
+        .pagination {
+            margin-bottom: 20px; /* Added margin below the pagination section */
+        }
+
+        .pagination p {
+            margin: 0; /* Remove default margin for <p> */
+        }
+
+        .pagination button,
+        .pagination a {
+            padding: 10px; /* Standard padding for buttons and links */
+            margin-right: 5px; /* Adjusted right margin for spacing between elements */
+            cursor: pointer;
+        }
+
+        /* Styling for Stretch button */
+        .stretch-button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+            transition: all 0.4s; /* Changed transition to affect all properties */
+        }
+
+        .stretch-button:hover {
+            padding: 20px; /* Adjusted padding on hover */
+        }
+
+        /* Styling for 3D Click button */
+        .shadow-button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+            transition: box-shadow 0.15s;
+        }
+
+        .shadow-button:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjusted box-shadow on hover */
+        }
+
+        /* Styling for Margin and padding together buttons */
+        .margin-padding-button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+            transition: padding 0.15s;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .margin-padding-button:hover {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pagination">
+        <p>Pagination</p>
+        <button class="b-7">Back</button>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <button class="b-7">Next</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <p>Stretch Button</p>
+        <button class="stretch-button">Stretch</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <p>3D Click Button</p>
+        <button class="shadow-button">Shadow</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <p>Margin and Padding Together Buttons</p>
+        <button class="margin-padding-button">One</button>
+        <button class="margin-padding-button">Two</button>
+        <button class="margin-padding-button">Three</button>
+    </div>
+    
+</body>
+</html>
